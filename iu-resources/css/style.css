@@ -1,0 +1,69 @@
+/*!
+ * Instant Update - Custom CSS
+ */
+
+.iu-editable:hover {
+	outline: dashed 1px #000;
+
+}
+.iu-invisible {
+	display: none !important;
+}
+
+.iu-empty {
+	border: 1px dashed #000 !important;
+	height: 100px !important;
+	display: block !important;
+}
+
+#iu-jgrowl {
+	width: 280px;
+	right: -5px;
+	top: 5px;
+	position: fixed;
+	z-index: 2147483647;
+}
+
+.ui-icon-closethick {
+	background-color:#999;
+}
+
+.iu-icon-toggle-off {
+	background-image: url(../images/edit-off.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.iu-icon-toggle-on {
+	background-image: url(../images/edit-on.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.iu-icon-dashboard {
+	background-image: url(../images/dashboard.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.iu-icon-edit {
+	background-image: url(../images/edit.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.iu-icon-source {
+	background-image: url(../images/source.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.iu-icon-signout {
+	background-image: url(../images/signout.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+/* CKEditor fixing responsive images - commnet the code bellow to show full image size  */
+
+img { max-width: 100%; height: auto; }
